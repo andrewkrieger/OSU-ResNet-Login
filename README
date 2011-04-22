@@ -1,0 +1,11 @@
+This script lets students log in to the dorm networks the Ohio State University.
+
+To set it up, edit the resnet.py file.  Search for the string "MODIFY THIS PART' (without the quotes).  Below that, change "name.1" to your OSU name.number (it should still be inside quotes).
+
+If you want, you can comment out this line in the code:
+params["password"] = getpass.getpass("OSU Latin Password: ")
+by putting a pund sign in front of it, then uncomment this line:
+#params["password"] = "your password in plaintext here"
+Then put your login password inside the quotes.  This is significantly less secure, since anyone can just look at your password, but it is more convenient.  Don't change this unless you understand the risks.
+
+I take no responsbility for this software.  It is provided "as-is", with no warranty, express or implied.
